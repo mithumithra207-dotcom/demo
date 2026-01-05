@@ -1,0 +1,32 @@
+body {
+    background-color:lightblue;
+    text-align: center;
+    padding: 50px;
+}
+h1 {
+    color:black;
+    font-size: 49px;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+button {
+    background-color:blue;
+    color: white;
+    padding: 10px 25px;
+    border: black;
+    font-size: 16px;
+    margin-top: 10px;
+}
+button:hover {
+    background-color:aqua;
+}

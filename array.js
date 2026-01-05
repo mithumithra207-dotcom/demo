@@ -1,0 +1,12 @@
+let vegetables = ["Carrot", "Potato", "Tomato", "Onion"];
+console.log("Original Array:", vegetables);
+vegetables.push("Cabbage");
+console.log("After push():", vegetables);
+vegetables.pop();
+console.log("After pop():", vegetables);
+vegetables.unshift("Brinjal");
+console.log("After unshift():", vegetables);
+vegetables.shift();
+console.log("After shift():", vegetables);
+let slicedVeg = vegetables.slice(1, 3);
+console.log("After slice():", slicedVeg);
